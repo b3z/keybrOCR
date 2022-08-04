@@ -56,12 +56,12 @@ class Analytics:
         if int(float(data[1])) > self.avgAcc:
             print(f'You were {int(float(data[1]))-self.avgAcc} % more accurate than your average.')
         if int(float(data[2])) > self.avgScore:
-            print(f'You were {int(float(data[3]))-self.avgScore} higher score than usual..')
+            print(f'You were {int(float(data[2]))-self.avgScore} higher score than usual..')
 
         if int(float(data[0])) > self.maxWpm:
             print(f'New speed record! {int(float(data[1]))-self.maxWpm} wpm faster.')
         if int(float(data[2])) > self.maxScore:
-            print(f'New high score {data[3]}! That is {int(float(data[3]))-self.maxScore} better than before.')
+            print(f'New high score {data[2]}! That is {int(float(data[2]))-self.maxScore} better than before.')
 
         if int(float(data[0])) > self.avgWpm and int(float(data[1])) < self.avgAcc:
             print('You should go a bit slower and keep you focus on accuracy.')
