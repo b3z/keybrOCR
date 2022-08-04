@@ -1,6 +1,6 @@
 # keybr.com data reader and analyzer using OCR
 
-Why? I want more analytics that they offer on their page.
+Why? I want more analytics than they offer on their page.
 
 What does it do? Read data after every type round and save it. Create analytics and stats. Give feedback.
 
